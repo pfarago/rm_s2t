@@ -22,7 +22,7 @@ startMicrophoneButton.addEventListener("click", async () => {
         fetch('https://api.openai.com/v1/audio/transcriptions', {
             method: 'POST',
             headers: {
-                "Authorization": "Bearer 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"
+                "Authorization": "Bearer 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"
             },
             body: formData
         })
@@ -51,7 +51,7 @@ startMicrophoneButton.addEventListener("click", async () => {
                 headers: {
                     'Content-Type': 'application/json',
                     // Replace YOUR_OPENAI_API_KEY with your actual OpenAI API key
-                    'Authorization': 'Bearer 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'
+                    'Authorization': 'Bearer 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'
                 },
                 body: JSON.stringify({
                     model: "gpt-4",
